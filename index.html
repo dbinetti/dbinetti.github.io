@@ -15,10 +15,6 @@
     <link href="assets/js/wow/animate.css" rel="stylesheet">
     <link href="assets/css/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link href="assets/js/lightbox/css/lightbox.css" rel="stylesheet">
-    <!-- <link  rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vegas/2.3.1/vegas.min.css" integrity="sha256-CoaEo6dWoXaW4IsTuGjrEz/XmqcnCP+UoVhh1R6HUTQ=" crossorigin="anonymous" /> -->
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" /> -->
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.9.0/css/lightbox.min.css" integrity="sha256-iU/Wh1HMAs/NgpurDAu14e7S3FkllcJ5aPnpPDdnO6c=" crossorigin="anonymous" /> -->
     <link href="assets/css/styles.css" rel="stylesheet">
     <link href="assets/css/custom.css" rel="stylesheet">
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -26,10 +22,9 @@
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
-    <script type="text/javascript">
-      (function(f,b){if(!b.__SV){var a,e,i,g;window.mixpanel=b;b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.union people.track_charge people.clear_charges people.delete_user".split(" ");
-      for(g=0;g<i.length;g++)f(c,i[g]);b._i.push([a,e,d])};b.__SV=1.2;a=f.createElement("script");a.type="text/javascript";a.async=!0;a.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?MIXPANEL_CUSTOM_LIB_URL:"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";e=f.getElementsByTagName("script")[0];e.parentNode.insertBefore(a,e)}})(document,window.mixpanel||[]);
-      mixpanel.init("75276b86a19d9eddbbb0ee726238d8d5");
+    <script>
+        !function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+        posthog.init('phc_PrCb4bl1RoS6A5fkEpYWDv6BTsXjcvvrzFFH3HHMIG5',{api_host:'https://app.posthog.com'})
     </script>
   </head>
   <body data-default-background-img="assets/images/sll3.png" data-overlay="true" data-overlay-opacity="0.35">
@@ -91,9 +86,9 @@
                 <p>
                   Innovation Options value initiatives based not on unrealistic predictions about the future, but on the optionality they represent to the firm in the present.  It is a more accurate, realistic, and sound approach to risk-management when addressing unstable or unproved markets.
                 </p>
-                <p>
+                <!-- <p>
                   To learn more, visit <a href='https://blog.innovation-options.com'>https://blog.innovation-options.com</a>.
-                </p>
+                </p> -->
                 <p>
                    <a href="#services" class="link-scroll btn btn-outline-inverse btn-lg">next: services</a>
                 </p>
@@ -284,11 +279,11 @@
       </section>
       <section id="footer">
         <div id="go-to-top" onclick="scroll_to_top();"><span class="icon glyphicon glyphicon-chevron-up"></span></div>
-        <ul class="social-icons">
+        <!-- <ul class="social-icons">
           <li><a href="https://twitter.com/dbinetti" target="_blank" title="Twitter"><i class='fa fa-twitter'></i></a></li>
           <li><a href="https://www.medium.com/@dbinetti" target="_blank" title="Medium"><i class='fa fa-medium'></i></a></li>
-        </ul>
-        <div class="footer-text-line">&copy; 2022 David E. Binetti</div>
+        </ul> -->
+        <div class="footer-text-line">&copy; 2023 David E. Binetti</div>
       </section>
     </div>
     <!-- DO NOT MOVE, EDIT OR REMOVE - this is needed in order for popup content to be populated in it -->
@@ -311,44 +306,11 @@
     <script src="assets/js/lightbox/js/lightbox.min.js"></script>
     <script src="assets/js/wow/wow.min.js"></script>
     <script src="assets/js/jquery.fitvids.js"></script>
-    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script> -->
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/vegas/2.3.1/vegas.min.js"></script> -->
-    <!-- <script src="assets/js/owl-carousel/owl.carousel.min.js"></script> -->
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.9.0/js/lightbox.min.js"></script> -->
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script> -->
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/fitvids/1.1.0/jquery.fitvids.min.js"></script> -->
     <script src="assets/js/functions.js"></script>
     <script src="assets/js/initialise-functions.js"></script>
     <!-- IE9 form fields placeholder fix -->
     <!--[if lt IE 9]>
     <script>contact_form_IE9_placeholder_fix();</script>
     <![endif]-->
-    <script>
-        mixpanel.track('Home');
-        mixpanel.track_links(
-          '#menu-bio', 'Menu', {"Name": "Bio", "Action": "Clicked"}
-        );
-        mixpanel.track_links(
-          '#menu-services', 'Menu', {"Name": "Services", "Action": "Clicked"}
-        );
-        mixpanel.track_links(
-          '#menu-content', 'Menu', {"Name": "Content", "Action": "Clicked"}
-        );
-        mixpanel.track_links(
-          '#menu-appearances', 'Menu', {"Name": "Appearances", "Action": "Clicked"}
-        );
-        mixpanel.track_links(
-          '#menu-contact', 'Menu', {"Name": "Contact", "Action": "Clicked"}
-        );
-    </script>
-    <script>
-      window.intercomSettings = {
-        app_id: "xo4r41wn"
-      };
-    </script>
-    <script>
-      (function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/xo4r41wn';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()
-    </script>
   </body>
 </html>
